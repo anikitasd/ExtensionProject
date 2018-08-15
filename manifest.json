@@ -1,0 +1,15 @@
+{
+ “manifest_version”: 2,
+ “name”: “InterView”,
+ “description”: “Stay sharp and answer a technical interview question with every tab you open.”,
+ “version”: “1”,
+ “author”: “Alexander Nikitas Dimopoulos”,
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   “default_title”: “Can you solve this one?”
+ },
+“chrome_url_overrides” : {
+  “newtab”: “newtab.html”
+},
+ “permissions”: [“activeTab”]
+}
